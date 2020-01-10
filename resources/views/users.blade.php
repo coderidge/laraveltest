@@ -1,7 +1,7 @@
     <div class="content">
         <div class="row justify-content-center">
             <div class="col-md-8">
-                        <table><tr><td>id</td><td>name</td><td>role</td><td>email</td><td>company_name</td><td>registered_on</td><td>last_login</td></tr>
+                        <table bgcolor="#ff6600"><tr><td>id</td><td>name</td><td>role</td><td>email</td><td>company_name</td><td>registered_on</td><td>last_login</td></tr>
                         @foreach($results as $result)
                                 <tr>
                                     <td>{{$result->id}}</td>
